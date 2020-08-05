@@ -1,2 +1,2 @@
-pd -nogui -audiodev 1 -open PdPitcher.pd
+pd -nogui -audiodev 2 -open PdPitcher.pd
 
