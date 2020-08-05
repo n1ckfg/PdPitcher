@@ -1,5 +1,6 @@
 PATCH_NAME=PdPitcher.pd
 
+sleep 5 &
 pd $1 -rt -open $PATCH_NAME &
 sleep 5 &
 sudo aconnect -x &
