@@ -1,3 +1,3 @@
-aconnect -l
+aconnect -l &
 pd -nogui -listdev
 
