@@ -1,4 +1,4 @@
-PATCH_NAME=PdPitcher.pd
+PATCH_NAME=PdPitcher_002.pd
 
 sleep 5 &
 pd $1 -rt -open $PATCH_NAME &
