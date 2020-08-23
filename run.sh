@@ -1,7 +1,8 @@
 PATCH_NAME=PdPitcher.pd
 
-xvfb-run pd $1 -rt -open $PATCH_NAME &
-sleep 5 &
+sleep 2.5 &
+xvfb-run pd $1 -rt -alsa -open $PATCH_NAME &
+sleep 2.5 &
 sudo aconnect 'Pure Data':1 'OP-1 Midi Device':0
 
 
